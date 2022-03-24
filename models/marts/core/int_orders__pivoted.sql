@@ -13,7 +13,7 @@ pivoted as(
         {%- if not loop.last -%}
             ,
         {%- endif -%}
-        {%- endfor -%}
+        {%- endfor %}
 
     from payments
     where status = 'success'
